@@ -6,6 +6,7 @@
   "repository": "git@github.com:Lucas-Ayabe/simple-validator.git",
   "author": "Lucas Akira Ayabe <lucas.ayabe@gmail.com>",
   "license": "MIT",
+  "homepage": "https://simple-validator.netlify.app/",
   "scripts": {
     "dev": "npm run development",
     "development": "cross-env node_env=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",

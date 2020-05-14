@@ -1,6 +1,6 @@
 # Simple-validator
 
-A simple lib to validate forms in HTML
+A simple lib to validate forms in HTML. [A demo here.](https://simple-validator.netlify.app/)
 
 ## Getting Started
 
