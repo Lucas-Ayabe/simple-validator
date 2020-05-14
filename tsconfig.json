@@ -1,0 +1,10 @@
+{
+    "include": [
+        "./assets/ts/index.ts"
+    ],
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "target": "ES2015",
+        "allowJs": true
+    }
+}

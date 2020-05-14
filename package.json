@@ -1,0 +1,39 @@
+{
+  "name": "simple-validator",
+  "version": "1.0.0",
+  "description": "A simple lib to validate forms in HTML",
+  "main": "assets/ts/index.ts",
+  "repository": "git@github.com:Lucas-Ayabe/simple-validator.git",
+  "author": "Lucas Akira Ayabe <lucas.ayabe@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env node_env=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "hot": "cross-env node_env=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env node_env=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "private": false,
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "eslint": "^7.0.0",
+    "gitignore": "^0.6.0",
+    "laravel-mix": "^6.0.0-alpha.1",
+    "resolve-url-loader": "^3.1.1",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "ts-loader": "^7.0.4",
+    "typescript": "^3.8.3",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.32.0",
+    "@typescript-eslint/parser": "^2.32.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.3"
+  }
+}
