@@ -98,11 +98,9 @@ import simpleValidator, * as Rules from "./index";
 
 const { minLength } = Rules;
 
-simpleValidator("Python", [minLength(4)]); // Returns true because Python has more than
-4 caracters.
+simpleValidator("Python", [minLength(4)]); // Returns true because Python has more than 4 caracters.
 
-simpleValidator("Java", [minLength(5)]); // Returns false because Java hasn't more than
-5 caracters.
+simpleValidator("Java", [minLength(5)]); // Returns false because Java hasn't more than 5 caracters.
 ```
 
 #### maxLength
@@ -131,11 +129,9 @@ import simpleValidator, * as Rules from "./index";
 
 const { pattern } = Rules;
 
-simpleValidator("Java", [pattern(/Java/g)]); // Returns true because Java matches the
-/Java/g regular expression.
+simpleValidator("Java", [pattern(/Java/g)]); // Returns true because Java matches the /Java/g regular expression.
 
-simpleValidator("Python", [pattern(/Java/g)]); // Returns false because Python doesn't match
-/Java/g regular expression.
+simpleValidator("Python", [pattern(/Java/g)]); // Returns false because Python doesn't match /Java/g regular expression.
 ```
 
 <!-- ## Running the tests
