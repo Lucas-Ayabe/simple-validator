@@ -11,7 +11,7 @@ git clone https://github.com/Lucas-Ayabe/simple-validator.git
 ```
 
 _Important_: This is a TypeScript module then you need to have TypeScript installed to
-use this module. [See more in Using section](##Using)
+use this module. [See more in Using section](#Using)
 
 ### Installing
 
